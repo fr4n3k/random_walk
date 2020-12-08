@@ -9,5 +9,5 @@ rw.fill_walk()
 # Plot the points in the walk.
 plt.style.use('classic')
 fig, ax = plt.subplots()
-ax.scatter(rw.x_values, rw.y_values, s=15)
+ax.scatter(rw.x_values, rw.y_values, s=15, c='red')
 plt.show()
