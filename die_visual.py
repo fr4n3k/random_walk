@@ -27,4 +27,4 @@ x_axis_config = {'title': 'Result'}
 y_axis_config = {'title': 'Frequency of result'}
 my_layout = Layout(title=f'Results of rolling one D{die.num_sides} {num_throws} times',
                    xaxis=x_axis_config, yaxis=y_axis_config)
-offline.plot({'data': data, 'layout': my_layout}, filename='d6.html')
+offline.plot({'data': data, 'layout': my_layout}, filename='die.html')
