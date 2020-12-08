@@ -24,7 +24,7 @@ class RandomWalk:
             x_step = x_direction * x_distance
 
             y_direction = choice([1, -1])
-            y_distance = choice([x for x in range(0,5)])
+            y_distance = choice([x for x in range(0, 5)])
             y_step = y_direction * y_distance
 
             # Reject moves that go nowhere.
@@ -36,4 +36,4 @@ class RandomWalk:
             y = self.y_values[-1] + y_step
 
             self.x_values.append(x)
-            self.y_values.appenf(y)
+            self.y_values.append(y)
